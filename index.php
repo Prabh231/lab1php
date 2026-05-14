@@ -48,6 +48,14 @@ $students =[
             <?php endforeach; ?>
         <?php endif; ?>
     </section>
+    <section class="grade-status">
+                <?php 
+                $total = count($students);
+                echo "<p>Total Students Evaluated: $total</p>";
+                echo "<p>Report generated At: " . date("Y-m-d H:i:s") . "</p>";
+
+                ?>
+    </section>
 </main>
 
 <footer><p>&copy; Total Student Evaluated: <php  count($students); ?> <php  date("Y-m-d H:i:s"); ?></p>
