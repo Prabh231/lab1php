@@ -50,9 +50,7 @@ $students =[
     </section>
 </main>
 
-<footer><p>&copy; </p>
-<p>Total Student Evaluated: <php echo count($students); ?</p>
-<p><php echo date("Y-m-d H:i:s"); ?</p>
+<footer><p>&copy; Total Student Evaluated: <php  count($students); ?> <php  date("Y-m-d H:i:s"); ?></p>
 </footer>
 
 </body>
